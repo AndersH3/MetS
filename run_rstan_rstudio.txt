@@ -1,0 +1,1298 @@
+
+> source(
++     "~/mets_brain_age_participant_weighted_reference_rstan_table_s7_final_fixed.r"
++ )
+
+Exact Table S7 data validation: PASS
+  32/32 participant counts match embedded Table S7 reference.
+  32/32 BAG LS Mean values match embedded Table S7 reference.
+  BAG values are the Table S7 LS means, not beta coefficients.
+
+Participant-count weighting:
+  total participants = 27375
+  sum of full-data weights = 32.000000000000
+  mean full-data weight = 1.000000000000
+  minimum weight = 0.036237
+  maximum weight = 6.298301
+  max/min influence ratio = 173.81
+
+Compiling seven Stan models once for reuse across all fits...
+  Compiling Linear...
+recompiling to avoid crashing R session
+  Compiling Power...
+recompiling to avoid crashing R session
+  Compiling Normalized_exponential...
+recompiling to avoid crashing R session
+  Compiling Power_exponential_hybrid...
+recompiling to avoid crashing R session
+  Compiling Direct_p_ridge...
+recompiling to avoid crashing R session
+  Compiling Hard_logp_ridge...
+recompiling to avoid crashing R session
+  Compiling Soft_logp_ridge...
+recompiling to avoid crashing R session
+
+==========================================================================
+FIT: Linear
+==========================================================================
+starting worker pid=562137 on localhost:11970 at 18:57:42.816
+starting worker pid=562152 on localhost:11970 at 18:57:42.954
+starting worker pid=562166 on localhost:11970 at 18:57:43.092
+starting worker pid=562180 on localhost:11970 at 18:57:43.223
+
+SAMPLING FOR MODEL 'mets_linear' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 1.7e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.17 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.572 seconds (Warm-up)
+Chain 1:                0.63 seconds (Sampling)
+Chain 1:                1.202 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'mets_linear' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 1.8e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.575 seconds (Warm-up)
+Chain 2:                0.518 seconds (Sampling)
+Chain 2:                1.093 seconds (Total)
+Chain 2: 
+
+SAMPLING FOR MODEL 'mets_linear' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 1.6e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_linear' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 1.9e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.19 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.47 seconds (Warm-up)
+Chain 3:                0.919 seconds (Sampling)
+Chain 3:                1.389 seconds (Total)
+Chain 3: 
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.559 seconds (Warm-up)
+Chain 4:                0.519 seconds (Sampling)
+Chain 4:                1.078 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Linear:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Power
+==========================================================================
+starting worker pid=562329 on localhost:11970 at 18:58:10.763
+starting worker pid=562343 on localhost:11970 at 18:58:10.906
+starting worker pid=562357 on localhost:11970 at 18:58:11.044
+starting worker pid=562371 on localhost:11970 at 18:58:11.176
+
+SAMPLING FOR MODEL 'mets_power' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 1.5e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_power' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 1.5e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.723 seconds (Warm-up)
+Chain 1:                0.653 seconds (Sampling)
+Chain 1:                1.376 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_power' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 1.8e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.879 seconds (Warm-up)
+Chain 2:                1.088 seconds (Sampling)
+Chain 2:                1.967 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_power' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 1.5e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.835 seconds (Warm-up)
+Chain 3:                0.819 seconds (Sampling)
+Chain 3:                1.654 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.81 seconds (Warm-up)
+Chain 4:                1.269 seconds (Sampling)
+Chain 4:                2.079 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Power:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Normalized_exponential
+==========================================================================
+starting worker pid=562457 on localhost:11970 at 18:58:38.562
+starting worker pid=562499 on localhost:11970 at 18:58:38.708
+starting worker pid=562525 on localhost:11970 at 18:58:38.854
+starting worker pid=562544 on localhost:11970 at 18:58:38.998
+
+SAMPLING FOR MODEL 'mets_normalized_exponential' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 3.7e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.37 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_normalized_exponential' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 3e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.3 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_normalized_exponential' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 3.3e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.33 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 1.53 seconds (Warm-up)
+Chain 1:                1.886 seconds (Sampling)
+Chain 1:                3.416 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 1.655 seconds (Warm-up)
+Chain 2:                1.57 seconds (Sampling)
+Chain 2:                3.225 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_normalized_exponential' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 4e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.4 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 1.815 seconds (Warm-up)
+Chain 3:                1.176 seconds (Sampling)
+Chain 3:                2.991 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 1.391 seconds (Warm-up)
+Chain 4:                1.201 seconds (Sampling)
+Chain 4:                2.592 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Normalized_exponential:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Power_exponential_hybrid
+==========================================================================
+starting worker pid=562704 on localhost:11970 at 18:59:08.729
+starting worker pid=562718 on localhost:11970 at 18:59:08.863
+starting worker pid=562732 on localhost:11970 at 18:59:09.007
+starting worker pid=562746 on localhost:11970 at 18:59:09.140
+
+SAMPLING FOR MODEL 'mets_power_exponential_hybrid' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 3e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.3 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_power_exponential_hybrid' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 3.2e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.32 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_power_exponential_hybrid' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 3.4e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_power_exponential_hybrid' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 3.6e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.36 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 2.635 seconds (Warm-up)
+Chain 1:                4.307 seconds (Sampling)
+Chain 1:                6.942 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 2.689 seconds (Warm-up)
+Chain 2:                3.297 seconds (Sampling)
+Chain 2:                5.986 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 3.173 seconds (Warm-up)
+Chain 3:                2.399 seconds (Sampling)
+Chain 3:                5.572 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 2.916 seconds (Warm-up)
+Chain 4:                2.985 seconds (Sampling)
+Chain 4:                5.901 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Power_exponential_hybrid:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Direct_p_ridge
+==========================================================================
+starting worker pid=562813 on localhost:11970 at 18:59:38.612
+starting worker pid=562832 on localhost:11970 at 18:59:38.796
+starting worker pid=562846 on localhost:11970 at 18:59:38.996
+starting worker pid=562861 on localhost:11970 at 18:59:39.165
+
+SAMPLING FOR MODEL 'mets_direct_p_ridge' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 4e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.4 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_direct_p_ridge' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 3.3e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.33 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 1.438 seconds (Warm-up)
+Chain 1:                1.357 seconds (Sampling)
+Chain 1:                2.795 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_direct_p_ridge' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 4.6e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.46 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 1.557 seconds (Warm-up)
+Chain 2:                1.475 seconds (Sampling)
+Chain 2:                3.032 seconds (Total)
+Chain 2: 
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_direct_p_ridge' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 3.4e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 1.596 seconds (Warm-up)
+Chain 3:                1.197 seconds (Sampling)
+Chain 3:                2.793 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 1.304 seconds (Warm-up)
+Chain 4:                1.534 seconds (Sampling)
+Chain 4:                2.838 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Direct_p_ridge:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Hard_logp_ridge
+==========================================================================
+starting worker pid=562955 on localhost:11970 at 19:00:09.153
+starting worker pid=562969 on localhost:11970 at 19:00:09.317
+starting worker pid=562983 on localhost:11970 at 19:00:09.463
+starting worker pid=562997 on localhost:11970 at 19:00:09.611
+
+SAMPLING FOR MODEL 'mets_hard_logp_ridge' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 4.8e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.48 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_hard_logp_ridge' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 3.3e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.33 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 1.381 seconds (Warm-up)
+Chain 1:                1.647 seconds (Sampling)
+Chain 1:                3.028 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'mets_hard_logp_ridge' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 3.9e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.39 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_hard_logp_ridge' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 3.1e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.31 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 1.591 seconds (Warm-up)
+Chain 2:                1.857 seconds (Sampling)
+Chain 2:                3.448 seconds (Total)
+Chain 2: 
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 1.335 seconds (Warm-up)
+Chain 3:                1.049 seconds (Sampling)
+Chain 3:                2.384 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 1.445 seconds (Warm-up)
+Chain 4:                1.028 seconds (Sampling)
+Chain 4:                2.473 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Hard_logp_ridge:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+==========================================================================
+FIT: Soft_logp_ridge
+==========================================================================
+starting worker pid=563063 on localhost:11970 at 19:00:38.177
+starting worker pid=563077 on localhost:11970 at 19:00:38.304
+starting worker pid=563091 on localhost:11970 at 19:00:38.436
+starting worker pid=563105 on localhost:11970 at 19:00:38.567
+
+SAMPLING FOR MODEL 'mets_soft_logp_ridge' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 2.8e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.28 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_soft_logp_ridge' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 3.1e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.31 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 1.487 seconds (Warm-up)
+Chain 1:                1.394 seconds (Sampling)
+Chain 1:                2.881 seconds (Total)
+Chain 1: 
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+
+SAMPLING FOR MODEL 'mets_soft_logp_ridge' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 3.7e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.37 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+
+SAMPLING FOR MODEL 'mets_soft_logp_ridge' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 3.4e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 1.718 seconds (Warm-up)
+Chain 2:                2.044 seconds (Sampling)
+Chain 2:                3.762 seconds (Total)
+Chain 2: 
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 1.541 seconds (Warm-up)
+Chain 3:                1.554 seconds (Sampling)
+Chain 3:                3.095 seconds (Total)
+Chain 3: 
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 1.556 seconds (Warm-up)
+Chain 4:                1.187 seconds (Sampling)
+Chain 4:                2.743 seconds (Total)
+Chain 4: 
+
+RStan HMC diagnostics for Soft_logp_ridge:
+
+Divergences:
+0 of 12000 iterations ended with a divergence.
+
+Tree depth:
+0 of 12000 iterations saturated the maximum tree depth of 15.
+
+Energy:
+E-BFMI indicated no pathological behavior.
+
+============================================================================
+PARTICIPANT-WEIGHTED EXACT LOO
+============================================================================
+
+Outer fold 01/32
+  Linear                       lpd=+0.2943 weighted=+1.6687
+  Power                        lpd=+0.1797 weighted=+1.0186
+  Normalized_exponential       lpd=+0.3471 weighted=+1.9676
+  Power_exponential_hybrid     lpd=+0.1693 weighted=+0.9597
+  Direct_p_ridge               lpd=+0.4155 weighted=+2.3559
+  Hard_logp_ridge              lpd=+0.4422 weighted=+2.5069
+  Soft_logp_ridge              lpd=+0.2429 weighted=+1.3768
+
+Outer fold 02/32
+  Linear                       lpd=-0.5929 weighted=-0.5780
+  Power                        lpd=-0.3368 weighted=-0.3284
+  Normalized_exponential       lpd=-0.5258 weighted=-0.5126
+  Power_exponential_hybrid     lpd=-0.5129 weighted=-0.5001
+  Direct_p_ridge               lpd=-0.5168 weighted=-0.5038
+  Hard_logp_ridge              lpd=-0.5232 weighted=-0.5100
+  Soft_logp_ridge              lpd=-0.5118 weighted=-0.4990
+
+Outer fold 03/32
+  Linear                       lpd=-3.1153 weighted=-0.6264
+  Power                        lpd=-2.1467 weighted=-0.4316
+  Normalized_exponential       lpd=-2.2976 weighted=-0.4620
+  Power_exponential_hybrid     lpd=-2.0911 weighted=-0.4204
+  Direct_p_ridge               lpd=-2.3430 weighted=-0.4711
+  Hard_logp_ridge              lpd=-2.3907 weighted=-0.4807
+  Soft_logp_ridge              lpd=-2.2227 weighted=-0.4469
+
+Outer fold 04/32
+  Linear                       lpd=-2.4426 weighted=-0.8223
+  Power                        lpd=-1.2825 weighted=-0.4318
+  Normalized_exponential       lpd=-1.3510 weighted=-0.4548
+  Power_exponential_hybrid     lpd=-1.2144 weighted=-0.4088
+  Direct_p_ridge               lpd=-1.4156 weighted=-0.4766
+  Hard_logp_ridge              lpd=-1.4636 weighted=-0.4927
+  Soft_logp_ridge              lpd=-1.3439 weighted=-0.4524
+
+Outer fold 05/32
+  Linear                       lpd=+0.4277 weighted=+0.4739
+  Power                        lpd=+0.4364 weighted=+0.4836
+  Normalized_exponential       lpd=+0.4636 weighted=+0.5138
+  Power_exponential_hybrid     lpd=+0.4603 weighted=+0.5101
+  Direct_p_ridge               lpd=+0.4649 weighted=+0.5152
+  Hard_logp_ridge              lpd=+0.4704 weighted=+0.5212
+  Soft_logp_ridge              lpd=+0.4630 weighted=+0.5130
+
+Outer fold 06/32
+  Linear                       lpd=+0.4596 weighted=+0.3057
+  Power                        lpd=+0.4615 weighted=+0.3069
+  Normalized_exponential       lpd=+0.5120 weighted=+0.3405
+  Power_exponential_hybrid     lpd=+0.4765 weighted=+0.3170
+  Direct_p_ridge               lpd=+0.5295 weighted=+0.3522
+  Hard_logp_ridge              lpd=+0.5215 weighted=+0.3469
+  Soft_logp_ridge              lpd=+0.4960 weighted=+0.3299
+
+Outer fold 07/32
+  Linear                       lpd=+0.4087 weighted=+0.2374
+  Power                        lpd=+0.1847 weighted=+0.1073
+  Normalized_exponential       lpd=+0.2845 weighted=+0.1653
+  Power_exponential_hybrid     lpd=+0.2151 weighted=+0.1250
+  Direct_p_ridge               lpd=+0.2059 weighted=+0.1196
+  Hard_logp_ridge              lpd=+0.2227 weighted=+0.1294
+  Soft_logp_ridge              lpd=+0.2197 weighted=+0.1276
+
+Outer fold 08/32
+  Linear                       lpd=-3.4579 weighted=-0.2061
+  Power                        lpd=-1.7922 weighted=-0.1068
+  Normalized_exponential       lpd=-1.7703 weighted=-0.1055
+  Power_exponential_hybrid     lpd=-1.5944 weighted=-0.0951
+  Direct_p_ridge               lpd=-2.0073 weighted=-0.1197
+  Hard_logp_ridge              lpd=-2.0733 weighted=-0.1236
+  Soft_logp_ridge              lpd=-1.7386 weighted=-0.1036
+
+Outer fold 09/32
+  Linear                       lpd=-3.6248 weighted=-0.1314
+  Power                        lpd=-1.9049 weighted=-0.0690
+  Normalized_exponential       lpd=-1.7285 weighted=-0.0626
+  Power_exponential_hybrid     lpd=-1.6298 weighted=-0.0591
+  Direct_p_ridge               lpd=-2.1150 weighted=-0.0766
+  Hard_logp_ridge              lpd=-2.1537 weighted=-0.0780
+  Soft_logp_ridge              lpd=-1.8505 weighted=-0.0671
+
+Outer fold 10/32
+  Linear                       lpd=+0.4227 weighted=+2.6622
+  Power                        lpd=+0.4413 weighted=+2.7792
+  Normalized_exponential       lpd=+0.4531 weighted=+2.8537
+  Power_exponential_hybrid     lpd=+0.4429 weighted=+2.7894
+  Direct_p_ridge               lpd=+0.4705 weighted=+2.9632
+  Hard_logp_ridge              lpd=+0.4587 weighted=+2.8891
+  Soft_logp_ridge              lpd=+0.4559 weighted=+2.8713
+
+Outer fold 11/32
+  Linear                       lpd=+0.4018 weighted=+0.0395
+  Power                        lpd=+0.2764 weighted=+0.0271
+  Normalized_exponential       lpd=+0.2746 weighted=+0.0270
+  Power_exponential_hybrid     lpd=+0.2421 weighted=+0.0238
+  Direct_p_ridge               lpd=+0.3262 weighted=+0.0320
+  Hard_logp_ridge              lpd=+0.3483 weighted=+0.0342
+  Soft_logp_ridge              lpd=+0.2839 weighted=+0.0279
+
+Outer fold 12/32
+  Linear                       lpd=+0.4528 weighted=+0.1196
+  Power                        lpd=+0.1686 weighted=+0.0445
+  Normalized_exponential       lpd=+0.1699 weighted=+0.0449
+  Power_exponential_hybrid     lpd=+0.1239 weighted=+0.0327
+  Direct_p_ridge               lpd=+0.1675 weighted=+0.0443
+  Hard_logp_ridge              lpd=+0.1792 weighted=+0.0473
+  Soft_logp_ridge              lpd=+0.1423 weighted=+0.0376
+
+Outer fold 13/32
+  Linear                       lpd=-1.7368 weighted=-0.0954
+  Power                        lpd=-0.7126 weighted=-0.0392
+  Normalized_exponential       lpd=-0.5841 weighted=-0.0321
+  Power_exponential_hybrid     lpd=-0.5625 weighted=-0.0309
+  Direct_p_ridge               lpd=-0.6794 weighted=-0.0373
+  Hard_logp_ridge              lpd=-0.7108 weighted=-0.0391
+  Soft_logp_ridge              lpd=-0.6632 weighted=-0.0364
+
+Outer fold 14/32
+  Linear                       lpd=-1.7940 weighted=-0.5117
+  Power                        lpd=-3.1156 weighted=-0.8886
+  Normalized_exponential       lpd=-3.0121 weighted=-0.8591
+  Power_exponential_hybrid     lpd=-3.1081 weighted=-0.8865
+  Direct_p_ridge               lpd=-3.7026 weighted=-1.0561
+  Hard_logp_ridge              lpd=-3.7248 weighted=-1.0624
+  Soft_logp_ridge              lpd=-3.3685 weighted=-0.9608
+
+Outer fold 15/32
+  Linear                       lpd=+0.4180 weighted=+0.9710
+  Power                        lpd=+0.3495 weighted=+0.8119
+  Normalized_exponential       lpd=+0.3710 weighted=+0.8618
+  Power_exponential_hybrid     lpd=+0.3441 weighted=+0.7992
+  Direct_p_ridge               lpd=+0.3584 weighted=+0.8326
+  Hard_logp_ridge              lpd=+0.3597 weighted=+0.8356
+  Soft_logp_ridge              lpd=+0.3585 weighted=+0.8326
+
+Outer fold 16/32
+  Linear                       lpd=-1.6797 weighted=-0.8580
+  Power                        lpd=-1.4168 weighted=-0.7237
+  Normalized_exponential       lpd=-1.2684 weighted=-0.6479
+  Power_exponential_hybrid     lpd=-1.2785 weighted=-0.6531
+  Direct_p_ridge               lpd=-1.3578 weighted=-0.6936
+  Hard_logp_ridge              lpd=-1.4265 weighted=-0.7287
+  Soft_logp_ridge              lpd=-1.3647 weighted=-0.6971
+
+Outer fold 17/32
+  Linear                       lpd=-2.1856 weighted=-0.1610
+  Power                        lpd=-1.0644 weighted=-0.0784
+  Normalized_exponential       lpd=-0.8836 weighted=-0.0651
+  Power_exponential_hybrid     lpd=-0.8131 weighted=-0.0599
+  Direct_p_ridge               lpd=-1.0088 weighted=-0.0743
+  Hard_logp_ridge              lpd=-1.0691 weighted=-0.0787
+  Soft_logp_ridge              lpd=-0.9310 weighted=-0.0686
+
+Outer fold 18/32
+  Linear                       lpd=+0.4676 weighted=+0.5980
+  Power                        lpd=+0.4829 weighted=+0.6175
+  Normalized_exponential       lpd=+0.4811 weighted=+0.6152
+  Power_exponential_hybrid     lpd=+0.4682 weighted=+0.5987
+  Direct_p_ridge               lpd=+0.4932 weighted=+0.6307
+  Hard_logp_ridge              lpd=+0.5004 weighted=+0.6399
+  Soft_logp_ridge              lpd=+0.4792 weighted=+0.6129
+
+Outer fold 19/32
+  Linear                       lpd=+0.4502 weighted=+1.0703
+  Power                        lpd=+0.4719 weighted=+1.1219
+  Normalized_exponential       lpd=+0.4874 weighted=+1.1590
+  Power_exponential_hybrid     lpd=+0.4766 weighted=+1.1331
+  Direct_p_ridge               lpd=+0.4879 weighted=+1.1601
+  Hard_logp_ridge              lpd=+0.4942 weighted=+1.1750
+  Soft_logp_ridge              lpd=+0.4771 weighted=+1.1345
+
+Outer fold 20/32
+  Linear                       lpd=-0.0258 weighted=-0.0557
+  Power                        lpd=-0.1392 weighted=-0.3002
+  Normalized_exponential       lpd=-0.0293 weighted=-0.0632
+  Power_exponential_hybrid     lpd=-0.0866 weighted=-0.1869
+  Direct_p_ridge               lpd=-0.1115 weighted=-0.2405
+  Hard_logp_ridge              lpd=-0.1271 weighted=-0.2741
+  Soft_logp_ridge              lpd=-0.1006 weighted=-0.2169
+
+Outer fold 21/32
+  Linear                       lpd=-2.9700 weighted=-0.6458
+  Power                        lpd=-3.0410 weighted=-0.6612
+  Normalized_exponential       lpd=-2.8940 weighted=-0.6292
+  Power_exponential_hybrid     lpd=-3.0306 weighted=-0.6589
+  Direct_p_ridge               lpd=-3.1206 weighted=-0.6785
+  Hard_logp_ridge              lpd=-3.1180 weighted=-0.6779
+  Soft_logp_ridge              lpd=-3.0470 weighted=-0.6625
+
+Outer fold 22/32
+  Linear                       lpd=+0.4435 weighted=+0.4443
+  Power                        lpd=+0.3844 weighted=+0.3851
+  Normalized_exponential       lpd=+0.3380 weighted=+0.3386
+  Power_exponential_hybrid     lpd=+0.3323 weighted=+0.3329
+  Direct_p_ridge               lpd=+0.3682 weighted=+0.3689
+  Hard_logp_ridge              lpd=+0.3728 weighted=+0.3734
+  Soft_logp_ridge              lpd=+0.3463 weighted=+0.3469
+
+Outer fold 23/32
+  Linear                       lpd=-0.0979 weighted=-0.0288
+  Power                        lpd=-0.0265 weighted=-0.0078
+  Normalized_exponential       lpd=+0.0755 weighted=+0.0222
+  Power_exponential_hybrid     lpd=+0.0444 weighted=+0.0131
+  Direct_p_ridge               lpd=+0.0483 weighted=+0.0142
+  Hard_logp_ridge              lpd=+0.0322 weighted=+0.0095
+  Soft_logp_ridge              lpd=+0.0421 weighted=+0.0124
+
+Outer fold 24/32
+  Linear                       lpd=-0.6646 weighted=-0.0583
+  Power                        lpd=-1.5284 weighted=-0.1340
+  Normalized_exponential       lpd=-1.6052 weighted=-0.1407
+  Power_exponential_hybrid     lpd=-1.6981 weighted=-0.1489
+  Direct_p_ridge               lpd=-2.0193 weighted=-0.1770
+  Hard_logp_ridge              lpd=-1.9344 weighted=-0.1696
+  Soft_logp_ridge              lpd=-1.7989 weighted=-0.1577
+
+Outer fold 25/32
+  Linear                       lpd=+0.4770 weighted=+0.4127
+  Power                        lpd=+0.4790 weighted=+0.4143
+  Normalized_exponential       lpd=+0.4883 weighted=+0.4224
+  Power_exponential_hybrid     lpd=+0.4701 weighted=+0.4067
+  Direct_p_ridge               lpd=+0.4941 weighted=+0.4274
+  Hard_logp_ridge              lpd=+0.4945 weighted=+0.4277
+  Soft_logp_ridge              lpd=+0.4849 weighted=+0.4194
+
+Outer fold 26/32
+  Linear                       lpd=+0.4685 weighted=+0.6884
+  Power                        lpd=+0.4460 weighted=+0.6553
+  Normalized_exponential       lpd=+0.4670 weighted=+0.6862
+  Power_exponential_hybrid     lpd=+0.4458 weighted=+0.6550
+  Direct_p_ridge               lpd=+0.4559 weighted=+0.6699
+  Hard_logp_ridge              lpd=+0.4544 weighted=+0.6677
+  Soft_logp_ridge              lpd=+0.4474 weighted=+0.6573
+
+Outer fold 27/32
+  Linear                       lpd=-5.4157 weighted=-0.6204
+  Power                        lpd=-6.8179 weighted=-0.7810
+  Normalized_exponential       lpd=-6.4882 weighted=-0.7433
+  Power_exponential_hybrid     lpd=-6.8052 weighted=-0.7796
+  Direct_p_ridge               lpd=-8.1456 weighted=-0.9331
+  Hard_logp_ridge              lpd=-8.5756 weighted=-0.9824
+  Soft_logp_ridge              lpd=-7.6735 weighted=-0.8791
+
+Outer fold 28/32
+  Linear                       lpd=+0.4321 weighted=+0.1030
+  Power                        lpd=+0.4148 weighted=+0.0989
+  Normalized_exponential       lpd=+0.4152 weighted=+0.0990
+  Power_exponential_hybrid     lpd=+0.4183 weighted=+0.0998
+  Direct_p_ridge               lpd=+0.4215 weighted=+0.1005
+  Hard_logp_ridge              lpd=+0.4257 weighted=+0.1015
+  Soft_logp_ridge              lpd=+0.4215 weighted=+0.1005
+
+Outer fold 29/32
+  Linear                       lpd=-0.3617 weighted=-0.1966
+  Power                        lpd=-0.1455 weighted=-0.0791
+  Normalized_exponential       lpd=-0.1921 weighted=-0.1044
+  Power_exponential_hybrid     lpd=-0.1574 weighted=-0.0856
+  Direct_p_ridge               lpd=-0.1512 weighted=-0.0822
+  Hard_logp_ridge              lpd=-0.1545 weighted=-0.0840
+  Soft_logp_ridge              lpd=-0.1639 weighted=-0.0891
+
+Outer fold 30/32
+  Linear                       lpd=-2.7913 weighted=-1.4716
+  Power                        lpd=-2.6047 weighted=-1.3732
+  Normalized_exponential       lpd=-2.8312 weighted=-1.4926
+  Power_exponential_hybrid     lpd=-2.8114 weighted=-1.4821
+  Direct_p_ridge               lpd=-2.8298 weighted=-1.4919
+  Hard_logp_ridge              lpd=-2.7805 weighted=-1.4659
+  Soft_logp_ridge              lpd=-2.7537 weighted=-1.4517
+
+Outer fold 31/32
+  Linear                       lpd=+0.4207 weighted=+0.3575
+  Power                        lpd=+0.1919 weighted=+0.1631
+  Normalized_exponential       lpd=-0.1118 weighted=-0.0950
+  Power_exponential_hybrid     lpd=-0.0717 weighted=-0.0610
+  Direct_p_ridge               lpd=-0.0965 weighted=-0.0820
+  Hard_logp_ridge              lpd=-0.0508 weighted=-0.0432
+  Soft_logp_ridge              lpd=-0.0791 weighted=-0.0672
+
+Outer fold 32/32
+  Linear                       lpd=-3.1638 weighted=-1.3832
+  Power                        lpd=-2.5186 weighted=-1.1011
+  Normalized_exponential       lpd=-2.2991 weighted=-1.0051
+  Power_exponential_hybrid     lpd=-2.2848 weighted=-0.9989
+  Direct_p_ridge               lpd=-2.4547 weighted=-1.0732
+  Hard_logp_ridge              lpd=-2.5428 weighted=-1.1117
+  Soft_logp_ridge              lpd=-2.4348 weighted=-1.0644
+
+Participant-weighted stacking self-check: PASS
+  stacking score = 2.652699776194
+  best single-model score = 2.641802246664 (Normalized_exponential)
+  stacking improvement = +0.010897529530
+
+============================================================================
+PARTICIPANT-WEIGHTED RSTAN ANALYSIS COMPLETE
+============================================================================
+
+PRIMARY participant-weighted exact-LOO comparison:
+ rank                    model            criterion    elpd
+    0   Normalized_exponential participant_weighted 2.64180
+    1           Direct_p_ridge participant_weighted 2.31923
+    2          Hard_logp_ridge participant_weighted 2.30284
+    3                   Linear participant_weighted 1.70159
+    4                    Power participant_weighted 1.50031
+    5          Soft_logp_ridge participant_weighted 1.48019
+    6 Power_exponential_hybrid participant_weighted 1.28052
+ se_elpd_pointwise_approx elpd_diff_vs_best se_diff_pointwise_approx
+                  4.71501          0.000000                 0.000000
+                  5.07203         -0.322570                 0.540200
+                  5.12956         -0.338966                 0.691938
+                  4.65811         -0.940217                 0.955362
+                  4.33394         -1.141493                 1.051145
+                  4.56375         -1.161611                 0.621410
+                  4.32882         -1.361282                 1.013321
+ rough_2x_se_diff_small_N     RMSE      MAE
+                  0.00000 0.217226 0.127216
+                  1.08040 0.221651 0.138070
+                  1.38388 0.221154 0.134849
+                  1.91072 0.225146 0.141495
+                  2.10229 0.217342 0.128390
+                  1.24282 0.220533 0.133283
+                  2.02664 0.219361 0.127375
+
+Equal-constellation evaluation sensitivity comparison:
+ rank                    model           criterion     elpd
+    0   Normalized_exponential equal_constellation -24.2438
+    1 Power_exponential_hybrid equal_constellation -24.6209
+    2                    Power equal_constellation -25.2252
+    3          Soft_logp_ridge equal_constellation -26.6855
+    4           Direct_p_ridge equal_constellation -28.3679
+    5          Hard_logp_ridge equal_constellation -29.0423
+    6                   Linear equal_constellation -29.6753
+ se_elpd_pointwise_approx elpd_diff_vs_best se_diff_pointwise_approx
+                  8.83873          0.000000                 0.000000
+                  8.98657         -0.377093                 0.547826
+                  9.08993         -0.981459                 0.749332
+                  9.79112         -2.441734                 1.242462
+                 10.40277         -4.124089                 1.819972
+                 10.75285         -4.798564                 2.219636
+                  9.46378         -5.431525                 3.978137
+ rough_2x_se_diff_small_N     RMSE      MAE
+                  0.00000 0.413137 0.314059
+                  1.09565 0.415380 0.316776
+                  1.49866 0.416633 0.316847
+                  2.48492 0.416463 0.319338
+                  3.63994 0.417078 0.320958
+                  4.43927 0.417490 0.320402
+                  7.95627 0.431400 0.320599
+
+PRIMARY participant-weighted model weights:
+                    model stacking_weight BB_pseudo_BMA_plus_weight
+                   Linear     8.71963e-02                 0.1256643
+                    Power     8.79753e-14                 0.1025086
+   Normalized_exponential     9.12804e-01                 0.2363204
+ Power_exponential_hybrid     3.21481e-13                 0.0825494
+           Direct_p_ridge     1.19061e-10                 0.1804104
+          Hard_logp_ridge     4.99168e-10                 0.1886909
+          Soft_logp_ridge     7.83928e-13                 0.0838561
+
+Participant-weighted bootstrap ranking stability:
+                    model bootstrap_winner_frequency
+   Normalized_exponential                    0.55882
+          Hard_logp_ridge                    0.21548
+                   Linear                    0.13406
+                    Power                    0.05158
+           Direct_p_ridge                    0.03988
+ Power_exponential_hybrid                    0.00018
+          Soft_logp_ridge                    0.00000
+
+Full-data ridge relation:
+ alpha_p    beta_p    tau_p     r2_p  corr_p_a alpha_logp beta_logp
+ 1.18689 -0.281912 0.137832 0.689416 -0.830311   0.153483 -0.272427
+ tau_logp  r2_logp corr_logp_a
+ 0.127237 0.708665   -0.841823
+
+Full-data MCMC diagnostics:
+                    model max_Rhat min_ESS_bulk min_ESS_tail divergences
+                   Linear  1.00194         3543         2356           0
+                    Power  1.00219         2412         1065           0
+   Normalized_exponential  1.00137         3246         2022           0
+ Power_exponential_hybrid  1.00129         2298         1959           0
+           Direct_p_ridge  1.00312         3168         1346           0
+          Hard_logp_ridge  1.00181         3127         1886           0
+          Soft_logp_ridge  1.00139         3173         1771           0
+ max_treedepth_hits
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+
+Exact-LOO MCMC diagnostics:
+                    model folds worst_Rhat min_ESS_bulk min_ESS_tail
+                   Linear    32    1.00482         1081          423
+                    Power    32    1.00542          973          564
+   Normalized_exponential    32    1.00458         1342          467
+ Power_exponential_hybrid    32    1.00580         1222          462
+           Direct_p_ridge    32    1.00474         1639          836
+          Hard_logp_ridge    32    1.00419         1278          588
+          Soft_logp_ridge    32    1.00712         1415          617
+ total_divergences total_max_treedepth_hits
+                 0                        0
+                 0                        0
+                 0                        0
+                 0                        0
+                 0                        0
+                 0                        0
+                 0                        0
+
+Output directory:
+  /var/home/anonymous/mets_brain_age_participant_weighted_table_s7_results_rstan
+
+Primary weighting rule:
+  full fit/evaluation: w_i = 32*n_i/27375
+  each LOO training fit: w_i = 31*n_i/sum_training(n)
+
+Important sensitivity-label note:
+  The equal-constellation table uses equal weights only at evaluation.
+  Its models were still trained with participant-count weighting.
+
+R / package versions:
+  R: R version 4.6.1 (2026-06-24)
+  rstan: 2.39.0.9000
+  loo: 2.10.1
+  run hash: 1af08f291b17801f
