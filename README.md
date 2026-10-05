@@ -34,43 +34,30 @@ The scripts use the **Table S7 BAG LS means**, not the reported beta coefficient
 
 The primary estimand gives more influence to constellations represented by more participants while deliberately avoiding treatment of the 32 aggregate BAG estimates as 27,375 independent observations.
 
-For a fit containing (G) constellations,
+For a fit containing **G** constellations, the weight for constellation **i** is
 
-[
-w_i = rac{G n_i}{sum_j n_j},
-]
+    w_i = G * n_i / sum_j(n_j)
 
 so that
 
-[
-sum_i w_i = G,qquad operatorname{mean}(w_i)=1.
-]
+    sum_i(w_i) = G
+    mean(w_i) = 1
 
 For the full dataset,
 
-[
-w_i = rac{32 n_i}{27375}.
-]
+    w_i = 32 * n_i / 27375
 
 For an exact-LOO training fold with 31 constellations, the weights are recomputed from the training data:
 
-[
-w_{i,mathrm{train}}
-=
-rac{31 n_i}{sum_{mathrm{training}} n_i}.
-]
+    w_i,train = 31 * n_i / sum_training(n_i)
 
 This normalization redistributes influence among aggregate observations without inflating the nominal likelihood size.
 
 ### Primary and sensitivity scoring
 
-For held-out constellation (i), the primary predictive contribution is
+For held-out constellation **i**, the primary predictive contribution is
 
-[
-mathrm{weighted_lpd}_i
-=
-rac{32 n_i}{27375},mathrm{lpd}_i.
-]
+    weighted_lpd_i = (32 * n_i / 27375) * lpd_i
 
 The repository reports both:
 
@@ -81,39 +68,33 @@ The sensitivity analysis therefore changes the **evaluation weighting**, not the
 
 ## Model family
 
-Let
+For constellation **i**, define a weighted MetS score
 
-[
-x_i = mathbf M_i^mathsf T mathbf w,
-]
+    x_i = M_i^T * w
 
-where (mathbf M_i) is the five-element MetS indicator vector and (mathbf w) is a simplex of learned non-negative component weights summing to one. BAG is modeled as
+where **M_i** is the five-element MetS indicator vector and **w** is a simplex of learned non-negative component weights summing to one. BAG is modeled as
 
-[
-mu_i = m + k f(x_i),
-]
+    mu_i = m + k * f(x_i)
 
-with (k>0).
+with **k > 0**.
 
 Seven candidate models are fitted:
 
 | Model | Response shape |
 | --- | --- |
-| **Linear** | (f(x)=x) |
-| **Power** | (f(x)=x^p, p>0) |
-| **Normalized exponential** | normalized exponential with (p=1) |
-| **Power-exponential hybrid** | normalized exponential-power family with free (p) and (a) |
-| **Direct p-ridge** | hybrid constrained by an estimated linear (p)-vs-(a) relation |
-| **Hard log-p ridge** | hybrid constrained by an estimated linear (log p)-vs-(a) relation |
-| **Soft log-p ridge** | log-(p) ridge with residual variation around the relation |
+| **Linear** | f(x) = x |
+| **Power** | f(x) = x^p, with p > 0 |
+| **Normalized exponential** | normalized exponential with p = 1 |
+| **Power-exponential hybrid** | normalized exponential-power family with free p and a |
+| **Direct p-ridge** | hybrid constrained by an estimated linear p-vs-a relation |
+| **Hard log-p ridge** | hybrid constrained by an estimated linear log(p)-vs-a relation |
+| **Soft log-p ridge** | log(p) ridge with residual variation around the relation |
 
 The nonlinear models use a numerically stable, branchless implementation of
 
-[
-H(x,p,a)=rac{exp(a x^p)-1}{exp(a)-1},
-]
+    H(x,p,a) = [exp(a * x^p) - 1] / [exp(a) - 1]
 
-with a smooth approximation around (a=0).
+with a smooth approximation around **a = 0**.
 
 The ridge relations are learned from the unrestricted hybrid model. During exact LOO they are re-estimated **inside each training fold**, so the held-out BAG value does not participate in the ridge relation used to predict itself.
 
@@ -182,8 +163,8 @@ In the committed RStan run:
 - all seven full-data fits had **0 divergences**;
 - all exact-LOO fits had **0 divergences**;
 - no full-data or exact-LOO fit hit the configured maximum tree depth;
-- full-data maximum (hat R) was about **1.0031**;
-- worst exact-LOO (hat R) across the summarized models/folds was about **1.0071**.
+- full-data maximum R-hat was about **1.0031**;
+- worst exact-LOO R-hat across the summarized models/folds was about **1.0071**.
 
 These diagnostics address sampler behavior, not model validity or the limitations of the aggregate data.
 
